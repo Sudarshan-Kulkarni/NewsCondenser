@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: py-web-search
+Version: 0.2.4
+Summary: A Python module to fetch and parse results from different search engines.
+Home-page: https://github.com/rohithpr/py-web-search
+Author: Rohith PR
+Author-email: praroh2@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/rohithpr/py-web-search/tarball/0.2.4
+Description: UNKNOWN
+Keywords: web search,web scraping
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
