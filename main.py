@@ -175,11 +175,13 @@ tlinks = [l for l in links if not('google.co.in' in l or 'google.com' in l or 'y
 
 #cleaning the links
 links = linkclean(tlinks)
-print(links)
+#print(links)
 
 titles = gettitle(links)
+print('The headlines are :')
 for title in titles:
     print(title)
+input('\n\nPress any key to get the financial status of the company\n')
 
 #get the market stats for the company,from marketwatch.
 soup = visiturl('https://www.marketwatch.com/tools/quotes/lookup.asp?siteID=mktw&Lookup='+query+'&Country=us&Type=All')
@@ -199,6 +201,8 @@ else:
 moneycontrolinfo = getmoneycontrolinfo()
 if (moneycontrolinfo):
     dispdict(moneycontrolinfo)
+
+input('\n\nPress any key to analyze the headlines\n')
 
 #analyze the headlines by putting the titles in the analyser
 
